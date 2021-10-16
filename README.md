@@ -3,7 +3,7 @@
 ```python
 # main.py
 def main():
-    converter = MTSConverter()
+    converter = MP4Converter()
     converter.convert(filename='ocean.mts', output='output.mp4')
 ```
 Configure filename and output in main.py!

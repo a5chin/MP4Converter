@@ -1,8 +1,8 @@
-from lib import MTSConverter
+from lib import MP4Converter
 
 
 def main():
-    converter = MTSConverter()
+    converter = MP4Converter()
     converter.convert(filename='ocean.mts', output='output.mp4')
 
 
