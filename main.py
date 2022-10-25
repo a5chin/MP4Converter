@@ -39,11 +39,11 @@ def main():
         video = VideoFileClip(filename.as_posix())
         video.write_videofile(
             f"outputs/{filename.stem}.{args.ext}",
-            codec='libx264',
-            audio_codec='aac',
-            remove_temp=True
+            codec="libx264",
+            audio_codec="aac",
+            remove_temp=True,
         )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
